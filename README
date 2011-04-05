@@ -1,0 +1,9 @@
+This project contains various add-ons for AutoBlogged. These addons function as
+normal WordPress plugins and should be installed accordingly.
+
+Note that these addons are experimental, proof-of-concept tools that do not 
+not contain the level of error handling and logging that AutoBlogged has and 
+has not been through the full QA process. Therefore we do not provide support 
+for this code. USE AT YOUR OWN RISK.
+
+We welcome any community involvment with this project. 
