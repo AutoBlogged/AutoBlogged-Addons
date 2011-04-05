@@ -6,4 +6,31 @@ not contain the level of error handling and logging that AutoBlogged has and
 has not been through the full QA process. Therefore we do not provide support 
 for this code. USE AT YOUR OWN RISK.
 
-We welcome any community involvment with this project. 
+We welcome any community involvment with this project.
+
+
+Below is a list of the available addons:
+
+ab-dump-vars - Shows the contents of all the AutoBlogged post variables when 
+processing feeds manually.
+
+ab-fullcontent - Grabs full article content even if the feed only has excerpts.
+
+ab-tagging - Use external tagging services.
+
+ab-translate - Automatically translate your feed.
+
+disable-autoformat - Disables wptexturize, convert_smilies, convert_chars, 
+and wpautop.
+
+permalink-changer - Changes the permalink on AutoBlogged posts to point to the 
+original article.
+
+site-reset - Completely resets a WordPress blog by deleting all posts, pages, 
+tags, and comments.
+
+skip-no-images - Demonstrates how to use the AutoBlogged API to skip posts that 
+do not contain images.
+
+theme-support - Demonstrates how theme developers can build support for 
+AutoBlogged into their themes.
