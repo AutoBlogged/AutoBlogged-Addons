@@ -5,6 +5,13 @@ Note that these addons are experimental, proof-of-concept tools that do not
 not contain the level of error handling and logging that AutoBlogged has and 
 has not been through the full QA process. Therefore we do not provide support 
 for this code. USE AT YOUR OWN RISK.
+ 
+None of these addons provide admin pages and many require some manual 
+configuration in the php file itself. Check the readme.txt and php files
+for any instructions. 
+
+
+=============================================================================
 
 We welcome any community involvment with this project.
 
