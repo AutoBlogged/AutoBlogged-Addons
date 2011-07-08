@@ -155,7 +155,7 @@ if (!class_exists('abexcerpt')) {
 
 				$ret = wp_remote_get('http://tagthe.net/api/?url='.urlencode($postinfo['link']));
 				if (!is_wp_error($ret)) {
-					$returnXML = simplexml_load_string($ret['body']);
+					$returnXML = @simplexml_load_string($ret['body']);
 					$parsed_keywords = $returnXML->xpath('//dim[@type="topic"]/item');
 					if (count($parsed_keywords)) {
 						foreach($parsed_keywords as $term) {
