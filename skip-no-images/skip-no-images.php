@@ -52,10 +52,9 @@ if (!class_exists('ab_skip_post')) {
 				// $postinfo['image'] = 'http://path to a default image';
 				// $postinfo['thumbnail'] = 'http://path to a default thumbnail';
 				
-     	
-     	// Return our modified $postinfo
-			return $postinfo;
+
 			}
+			return $postinfo;
 		}
 	}
 }
@@ -64,4 +63,3 @@ if (!class_exists('ab_skip_post')) {
 if (class_exists('ab_skip_post')) {
 	$ab_skip_post = new ab_skip_post();
 }
-?>
