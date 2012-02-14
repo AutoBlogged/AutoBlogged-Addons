@@ -1,4 +1,4 @@
-=== AutoBlogged Post Variables Dump ===
+=== AutoBlogged Theme Support Template ===
 Tags: AutoBlogged, API, Debug
 Requires at least: 2.8
 Tested up to: 3.1
